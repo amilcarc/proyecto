@@ -1,0 +1,251 @@
+@font-face {
+  font-family: 'iconos';
+  src: url("fonts/icomoon.eot?glmfcv");
+  src: url("fonts/icomoon.eot?glmfcv#iefix") format('embedded-opentype'), url("fonts/icomoon.ttf?glmfcv") format('truetype'), url("fonts/icomoon.woff?glmfcv") format('woff'), url("fonts/icomoon.svg?glmfcv#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background: #000;
+}
+.contenedor {
+  padding: 0;
+  border: solid #fff;
+  background: #e6e6e6;
+  border-radius: 15px;
+  margin: 15px;
+  box-shadow: 3px 3px 50px #fff;
+}
+.contenedor header {
+  position: relative;
+  margin: 0;
+  background: #dd0333;
+  overflow: hidden;
+  color: #fff;
+  border-radius: 15px 15px 0 0px;
+  padding: 0 0 15px 0;
+}
+.contenedor header .logo {
+  float: left;
+  border-right: 3px solid #00c1f5;
+  padding-right: 20px;
+}
+.contenedor header .logo img {
+  width: 100px;
+}
+.contenedor header .foto {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  z-index: 2;
+}
+.contenedor header .foto img {
+  width: 100px;
+  border-radius: 40%;
+}
+.contenedor header .flecha {
+  background: #80221f;
+  position: absolute;
+  top: 60px;
+  right: 5px;
+  padding: 7px 15px 27px 25px;
+  z-index: 1;
+}
+.contenedor header .flecha:after {
+  font-family: iconos;
+  content: "\e5c5";
+  text-shadow: 2px 2px 0px #000;
+  position: absolute;
+  right: 0;
+  font-size: 20px;
+}
+.contenedor header .titulo {
+  margin: 0px 200px 0px 200px;
+  font-family: 'Architects Daughter', cursive;
+}
+.contenedor header .titulo .curso {
+  font-size: 22px;
+  color: #e6db0d;
+  text-decoration: none;
+  font-family: Arial;
+  font-style: italic;
+  font-weight: bold;
+}
+.contenedor header .titulo .curso:hover {
+  font-size: 24px;
+}
+.contenedor header .titulo .publicar {
+  background: #1e90ff;
+  padding: 5px 20px 5px 50px;
+  color: #fff;
+  font-size: 22px;
+  text-decoration: none;
+  border-radius: 10px;
+  display: block;
+  float: right;
+  font-family: Arial;
+  text-shadow: 2px 2px 0px #000;
+  position: relative;
+}
+.contenedor header .titulo .publicar:hover {
+  box-shadow: 0px 0px 15px #000;
+}
+.contenedor header .titulo .publicar:before {
+  position: absolute;
+  bottom: 1px;
+  font-size: 50px;
+  font-family: iconos;
+  content: "\e254";
+  color: #e6db0d;
+  left: 0;
+}
+.contenedor nav {
+  background: #c0c0c0;
+  border-left: 15px solid #fff;
+  position: relative;
+}
+.contenedor nav:after {
+  border-left: 20px solid #fff;
+  border-top: 23px solid transparent;
+  border-bottom: 23px solid transparent;
+  content: "";
+  position: absolute;
+  top: 0;
+}
+.contenedor nav .menu {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.contenedor nav .menu li {
+  color: #000;
+  background: #c0c0c0;
+  display: inline-block;
+  padding: 10px;
+}
+.contenedor nav .menu li .item {
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+  color: #000;
+  padding: 10px;
+}
+.contenedor nav .menu li .item:hover {
+  background: #000;
+  color: #fff;
+}
+.contenedor section article {
+  margin: 10px;
+  border-radius: 0 0 15px 15px;
+  padding: 5px;
+  box-shadow: 2px 2px 15px #000;
+  background: #fff;
+}
+.contenedor section article .cuerpo {
+  overflow: hidden;
+  border-bottom: 5px solid #008000;
+  position: relative;
+}
+.contenedor section article .cuerpo figure {
+  margin: 0;
+  float: left;
+  padding-right: 10px;
+}
+.contenedor section article .cuerpo figure img {
+  width: 200px;
+}
+.contenedor section article .subcuerpo h2 {
+  margin: 0;
+  padding: 5px;
+}
+.contenedor section article .subcuerpo p {
+  margin: 0;
+}
+.contenedor section article .subcuerpo .boton {
+  position: absolute;
+  bottom: 7px;
+  background: #06f;
+  padding: 7px 25px 7px 25px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.contenedor section article .subcuerpo .tiempo {
+  position: absolute;
+  botton: 7px;
+  right: 0;
+}
+.contenedor section .detalle {
+  overflow: hidden;
+  padding: 7px;
+}
+.contenedor section .detalle .manos {
+  float: left;
+}
+.contenedor section .detalle .manos a {
+  text-decoration: none;
+}
+.contenedor section .detalle .manos .up:before {
+  content: "\f087";
+  font-family: iconos;
+  font-size: 25px;
+  color: #008000;
+  left: 0;
+}
+.contenedor section .detalle .manos .down:before {
+  content: "\f088";
+  font-family: iconos;
+  font-size: 25px;
+  color: #f00;
+  right: 0;
+}
+.contenedor section .detalle .estrella {
+  float: right;
+}
+.contenedor section .detalle .estrella a {
+  text-decoration: none;
+}
+.contenedor section .detalle .estrella .estrl:before {
+  content: "\e900";
+  color: #e6db0d;
+  font-size: 25px;
+  font-family: iconos;
+}
+.contenedor section .detalle .estrella .numero {
+  background: #000;
+  color: #fff;
+  padding: 5px 15px 5px 15px;
+  border-radius: 10px;
+}
+.contenedor footer {
+  background: #dd0333;
+  padding: 5px;
+  border-radius: 15px;
+  text-align: center;
+  color: #fff;
+}
+.contenedor footer p {
+  font-size: 22px;
+  padding: 5px;
+  margin: 0;
+}
+.contenedor footer a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+}
+.contenedor footer a:before {
+  content: " - ";
+}
+.contenedor footer a:after {
+  content: " - ";
+}
+@media screen and (min-width: 1150px) {
+  section article {
+    display: inline-block;
+    width: 47%;
+  }
+  section article:nth-child(odd) {
+    margin-left: 1%;
+  }
+}

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="viewport" content="width=device-width, initial-scale=1">
+	<title>Página Principal-Portal UPeU</title>
+	<link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css1/bootstrap.css">
+	<link rel="stylesheet" href="css1/bootstrap-theme.css">
+	<script type="js/boostrap.js"></script>
+</head>
+<style type="text/css" media="screen">
+	body{
+		background-color: black;
+		z-index: 1;
+		overflow: hidden;
+	}
+	
+	h1{
+		font-family: Arial, Helvetica, sans-serif;
+		color: white;
+	}
+	h3{
+		color: white;
+	}
+	.col-xs-7 img{
+		width: 800px;
+		z-index: 1;
+		opacity: 0.4;
+	}
+	.col-xs-1 img{ 
+		padding: 40px 0px 0px 0px;
+		width: 100px;
+		position: relative;
+	}
+	section{background-color: #fbe6ca;
+		border-radius:0px 0px 15px 15px;
+		overflow: hidden;
+	}
+	nav{
+		background: transparent;
+		padding: 50px;
+		position: relative;
+		z-index: 3;
+	}
+	nav:after{
+		left: 0px;
+		border-left: 70px solid #8f1656;
+		border-top: 65px solid transparent;
+		border-bottom: 65px solid transparent;
+		content: "";
+		position: absolute;
+		top: 0;
+	}nav:before{
+		right: 0px;
+		border-right: 70px solid #8f1656;
+		border-top: 65px solid transparent;
+		border-bottom: 65px solid transparent;
+		content: "";
+		position: absolute;
+		top: 0;
+	}
+	*{padding: 0px;
+		margin: 0px;
+	}
+	.menu{left: 500px;
+		position: absolute;
+		z-index: 6;
+		margin: auto;
+		width: 0px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	ul, ol{list-style: none;
+
+	}
+	.menu1 li a{
+		border-radius: 10px 10px 10px 10px;
+		text-decoration: none;
+		background-color: #5A1A22;
+		color: white;
+		padding: 10px 15px;
+		display: block;
+	}
+	.menu1 li a:hover{
+		background-color: black;
+	}
+	.menu1 > li{
+		float: left;
+	}
+	.menu1 li ul{
+		display: none;
+		position: absolute;
+		min-width: 140px;
+		z-index: 4;
+	}
+	.row{background-color: #8f1656;
+		font-weight:1000;
+	}
+	.menu1 li:hover > ul{
+		 background:#fff/*171717*/;
+	    border-bottom:0;
+	    opacity: 0.9;
+	    color:#336699;
+		display: block;
+		background-color: transparent;
+		border-radius: 10px 10px 0px 0px;
+	}
+	.menu1 > li:hover{background-color: black;
+		border-radius: 10px 10px 0px 0px;
+	}
+	article{
+		border-radius: 10px 10px 0px 0px;
+		background-color: #8f1656;
+		padding: 20px 20px 7px 20px;
+	}
+	form{
+		padding: 10px 10px 10px 10px;
+		background-color: #fbe6ca;
+		box-shadow: 2px 2px 15px black;
+		border-radius: 10px 10px 10px 10px;
+		position: relative;
+		z-index: 2
+	}
+	
+	h5{color: white;
+	}
+	button{
+		background-color: #fbe6ca;
+		box-shadow: 1px 1px 10px #660033;
+	}
+	button:hover{box-shadow: 3px 3px 15px #660033;
+	}
+	footer{
+		background: #8f1656;
+		box-shadow: 5px 5px 15px white;
+		padding: 5px;
+		border-radius: 15px;
+		text-align: center;
+		color: white;}
+	footer p{
+		font-size:22px;
+		padding: 5px;
+		margin: 0;}
+	footer p a{
+		text-decoration: none;
+		font-size: 18px;
+		color: white;}
+	footer p a:before{
+		content: " - ";}
+	footer p a:after{
+		content: " - ";}
+</style>
+<body>
+	<div class="contenedor">
+		<div class="row">
+			<div id="header">
+				<div class="col-xs-1"><img src="imagen/logo2.png"></div>
+				<div class="col-xs-3">
+					<h1>Universidad Peruana Unión</h1>
+					<h3><font face="informal roman">Una Institución Adventista</font></h3>
+				</div>
+				<div class="col-xs-7">
+					<img src="imagen/upeu2.jpg">
+					<div id="menu">
+						<ul class="menu1">
+							<li><a href="#" class="item">LA UNIVERSIDAD</a>
+								<ul>
+									<li><a href="#">Institucional</a></li>
+									<li><a href="#">Autoridades</a></li>
+									<li><a href="#">Rectorado</a></li>
+									<li><a href="#">Vice Rectorado Académico</a></li>
+									<li><a href="#">Vice Rectorado de Investigación</a></li>
+									<li><a href="#">Vice Rectorado Administrativo</a></li>
+									<li><a href="#">Organigrama</a></li>
+									<li><a href="#">Asamblea Universitaria-UPeU</a></li>
+								</ul>
+							</li>
+							<li><a href="#" class="item">ACADEMICOS</a>
+								<ul>
+									<li><a href="#">Pre-Grado</a></li>
+									<li><a href="#">Post-Grado</a></li>
+									<li><a href="#">Calendario Académico 2016</a></li>
+									<li><a href="#">Calendario Acádemoico 2015</a></li>
+									<li><a href="#">Calendario Académico Curso 2015 II</a></li>
+								</ul>
+							</li>
+							<li><a href="#" class="item">INVESTIGACIÓN</a>
+								<ul>
+									<li><a href="#">Vicerectorado de Investigación</a></li>
+								</ul>
+							</li>
+							<li><a href="#" class="item">SERVICIOS</a>
+								<ul>
+									<li><a href="#">Admisión</a></li>
+									<li><a href="#">Centro de Cómputo</a></li></a></li>
+									<li><a href="#">Centro de Salud</a></li>
+									<li><a href="#">Red de Comunicaciones UPeU</a></li>
+									<li><a href="#">Residentado Médico</a></li>
+									<li><a href="#">Támites</a></li>
+									<li><a href="#">Tasa de Servicios</a></li>
+									<li><a href="#">Bienestar Universitario</a></li>
+								</ul>
+							</li>
+							<li><a href="#">CENTRO DE PRODUCCIÓN</a>
+								<ul>
+									<li><a href="#">Centro de Idiomas</a></li>
+									<li><a href="#">Centro de Estudios PreUniversitarios CEPRE</a></li>
+									<li><a href="#">Instituto de Sistemas Juliaca</a></li>
+									<li><a href="#">Centro de Capacitación enInformática</a></li>
+									<li><a href="#">Clínica Americana</a></li>
+									<li><a href="#">Laboratorio de Cromatología</a></li>
+									<li><a href="#">PROCAM</a></li></ul>
+							</li>
+							<li><a href="#" class="item">OFICINAS</a>
+								<ul>
+								<li><a href="#">Unidad de Talento Humano</a></li>
+									<li><a href="#">Unidad de Logística</a></li>
+									<li><a href="#">Asesría Jurídica</a></li>
+									<li><a href="#">Unidad de Estadística</a></li>
+									<li><a href="#">Capacitación y Evaluación Académica</a></li>
+									<li><a href="#">Cooperación Técnica</a></li>
+									<li><a href="#">Unidad de Ingenierías y Obras</a></li>
+									<li><a href="#">Registros y Servicios Académicos</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xs-1">
+					<img src="imagen/logoing.png">
+				</div>
+			</div>
+		</div>
+		<section>
+			<nav>
+				<table class="table">
+					<p></p>
+					</table>
+			</nav>
+			<header>
+				<div class="col-xs-4">
+					
+				</div>
+				<div class="col-sm-4">
+					
+					<form class="form-horizontal" role="form">
+						<article>
+							<h5>Bienvenidos al Sistema Académico de la Universidad Peruana Unión. Esta área es restringida solo a personal autorizado, proceda a ingresar su nombre de usuario y su password.</h5>
+						</article>
+						<hr></hr>
+					  	<div class="form-group">
+					    	<label for="ejemplo_email_3" class="col-lg-2 control-label">Usuario</label>
+					    	<div class="col-lg-10">
+					      		<input type="email" class="form-control" id="ejemplo_email_3"
+					             placeholder="Email">
+					    	</div>
+					  	</div>
+					  	<div class="form-group">
+					    	<label for="ejemplo_password_3" class="col-lg-2 control-label">Contraseña</label>
+					    	<div class="col-lg-10">
+					      		<input type="password" class="form-control" id="ejemplo_password_3" 
+					             placeholder="Contraseña">
+					    	</div>
+					  	</div>
+					  	<div class="form-group">
+					    	<div class="col-lg-offset-2 col-lg-10">
+					      		<div class="checkbox">
+					        		<label>
+					          			<input type="checkbox"> No cerrar sesión
+					        		</label>
+					      		</div>
+					    	</div>
+					  	</div>
+					  	<div class="form-group">
+					    	<div class="col-lg-offset-2 col-lg-10">
+					    		<span class="glyphicon glyphicon-circle-arrow-right"></span>
+					      		<button type="submit" class="btn btn">Ingresar</button>
+					    	</div>
+					  	</div>
+					</form>
+				</div>
+				<div class="col-xs-4"></div>
+			</header>
+			<table class="table">
+				<p></p>
+				</table>
+		</section>
+		<footer>
+			<p>Universidad Peruana Unión</p>
+			<a href="http://www.upeu.edu.pe/">http://www.upeu.edu.pe/ 2016</a>
+		</footer>
+	</div>
+</body>
+</html>
